@@ -3,7 +3,7 @@
 color 2
 
 if "%1" == "" goto lista comandos
-if "%1" == "favoritos" goto favoritos
+if "%1" == "fav" goto favoritos
 if "%1" == "web" goto web
 if "%1" == "local" goto local
 
@@ -13,7 +13,7 @@ goto erro
 echo Lista de comandos: 
 echo .
 echo ---------------------------------------------
-echo I favoritos - abre sites favoritos          I
+echo I 	  fav 	 - abre sites favoritos          I
 echo I                                           I
 echo I    web    - cria um projeto no htdocs     I
 echo I                                           I
